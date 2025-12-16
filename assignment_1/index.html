@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="scripts.js" defer></script>
+    <script src="betterway.js" defer></script>
 </head>
 <body>
     <div class="color-picker">
     <h3>Interactive Color Picker</h3>
     <div class="palette">
-        <div class="color-swatch" data-color="red" style="background-color: red;"></div>
-        <div class="color-swatch" data-color="blue" style="background-color: blue;"></div>
-        <div class="color-swatch" data-color="green" style="background-color: green;"></div>
-        <div class="color-swatch" data-color="yellow" style="background-color: yellow;"></div>
-        <div class="color-swatch" data-color="purple" style="background-color: purple;"></div>
-        <div class="color-swatch" data-color="orange" style="background-color: orange;"></div>
+        <div class="color-swatch" data-color="red" data-name="Allan" data-isStudent="False" style="background-color: red;" id="red"></div>
+        <div class="color-swatch" data-color="blue" style="background-color: blue;" id="blue"></div>
+        <div class="color-swatch" data-color="green" style="background-color: green;" id="green"></div>
+        <div class="color-swatch" data-color="yellow" style="background-color: yellow;" id="yellow"></div>
+        <div class="color-swatch" data-color="purple" style="background-color: purple;" id="purple"></div>
+        <div class="color-swatch" data-color="orange" style="background-color: orange;" id="orange"></div>
     </div>
     <div class="canvas" id="colorCanvas"></div>
     <p>Current Color: <span id="currentColor">None</span></p>
