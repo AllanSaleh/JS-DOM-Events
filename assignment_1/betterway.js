@@ -9,14 +9,14 @@ const resetCanvas = document.getElementById("resetCanvas");
 console.log(colors)
 
 colors.forEach(color => {
-    color.addEventListener('click', ()=>{
+    color.addEventListener('click', () => {
         let colorValue = color.dataset.color
         colorCanvas.style.backgroundColor = colorValue;
         currentColor.textContent = colorValue;
     })
 });
 
-resetCanvas.addEventListener("click", ()=>{
+resetCanvas.addEventListener("click", () => {
     colorCanvas.style.backgroundColor = 'white';
     currentColor.textContent = 'None';
 })
